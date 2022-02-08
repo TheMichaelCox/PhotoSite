@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+body {
+  background-color: #eee;
+}
+
+p {
+  text-align: center;
+  font-family: 'Comforter', cursive;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  /* VW (viewport width) setrs the font/text size based on the width of the veiwport (aka browser window) */
+  font-size: 2vw;
+  border-bottom: 10px solid #ccc;
+  padding: 10px; 
+
+  /* width of two images */
+  /* 22.5 * 2 = 45 */
+  /* width between two images (margin) */
+  /* 1,25 * 2 = 2.5 */
+  /* width of the paragraph element (aka bottom border) */
+  /* 45 + 2.5 = 47.5 */
+  width: 47.5%;
+
+  margin: auto;
+  
+
+}
+
+
+img {
+  /* 22.5 * 4 = 90 */
+  width: 22.5%;
+  /* 1.25 * 2 * 4 = 10 */
+  margin: 1.25%;
+
+  /* The float css property places an element on the left or right side of its container/parent allowing text and inline elements to wrap around it. The element is removed from the normal document flow. Also, removes the "mystery space" between image elements {NOTE: this "mystery space is the actual space between an img elements in an html file */
+    float: left;
+}
